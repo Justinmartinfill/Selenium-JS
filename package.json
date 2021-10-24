@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "devDependencies": {
     "chromedriver": "^94.0.0",
