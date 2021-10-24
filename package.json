@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "chromedriver": "^94.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "geckodriver": "^2.0.4",
+    "jest": "^27.3.1",
+    "selenium-webdriver": "^4.0.0"
+  }
+}
