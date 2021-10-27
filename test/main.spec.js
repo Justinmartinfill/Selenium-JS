@@ -19,18 +19,16 @@ describe('test', () => {
         const title = await driver.getTitle()
         
         expect(title).toContain('Provi')              
-    }   finally {
-        await driver.quit();
+     }  finally {
+     //   await driver.quit();
     }
     })
 
-    test('the User can navigate to the sign in page', async() => {
-        // try {
-        // await driver.getCurrentUrl()
-        // } finally {
-        // await driver.quit();
-        // }      
-    })
-
-    test.todo('user can fill out the work email form and the contact form')
+    it('Confirms the sign in page is up', async() => {
+    try {
+        await driver.getCurrentUrl('https://app.provi.com/users/sign_in')
+    }   finally {
+        await driver.quit();
+    }      
+    })   
 })
